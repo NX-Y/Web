@@ -96,7 +96,6 @@ button:hover{
 }
 .side-panel div{
     margin-top: 100px;
-    text-align: center;
 }
 .side-panel div h1{
     margin-top: 100px;
@@ -105,4 +104,80 @@ button:hover{
 .side-panel div p{
     color: #bdbdbd;
     margin-top: 20px;
+}
+.side-panel .container{
+    margin-left: 240px;
+    margin-top: 20px;
+}
+.side-panel .container .box{
+    border-radius: 10px;
+    position: relative;
+    width: 430px;
+    height: 150px;
+    background: #1c1c1d;
+    float: left;
+    margin: 15px;
+}
+.side-panel .container .box .content{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.side-panel .container .box .content p{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #8f8f9f;
+}
+
+.side-panel .credits{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    margin-top: 200px;
+}
+.side-panel .credits .box{
+    margin-top: 20px;
+    margin-left: 42%;
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background: #1c1c1d;
+    float: left;
+}
+.side-panel .credits .box .info img{
+    width: 70px;
+    border-radius: 100%;
+}
+.side-panel .credits .box .info{
+    margin: 25px;
+}
+.side-panel .credits .box .info h4{
+    margin-left: 90px;
+    margin-top: -70px;
+    font-size: xx-large;
+}
+.side-panel .credits .box .info p{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: large;
+}
+.side-panel .credits h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #242424;
+}
+::-webkit-scrollbar-thumb{
+    background: #3d3d3d;
+    border-radius: 10px;
 }
